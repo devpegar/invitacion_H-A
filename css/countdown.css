@@ -48,7 +48,7 @@
 
 .clock-timer {
   font-size: 3.6rem;
-  color: #ffffff;
+  color: #800000;
   padding: 50px 0;
   box-shadow: 0 -5px 5px -5px #333;
 }
@@ -62,7 +62,7 @@
 .clock-label {
   text-transform: uppercase;
   font-size: 1.3rem;
-  color: #fff;
+  color: #800000;
   padding: 20px 0;
   margin: 0;
   background: rgb(255, 252, 0);
@@ -79,9 +79,11 @@
     font-size: 0.75rem;
   }
 }
-
+.clock-days {
+  color: #fff;
+}
 .clock-label.label-days {
-  color: #ccc;
+  color: #fff;
   background: #e91e63;
   background: linear-gradient(
     0deg,
