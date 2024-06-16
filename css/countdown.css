@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+.clock {
+  margin: 1rem auto;
+}
+.clock-container {
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4),
+    0 15px 90px 30px rgba(0, 0, 0, 0.4);
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+@media (max-width: 650px) {
+  .clock-container {
+    max-width: 300px;
+  }
+}
+.clock-col {
+  flex: 25%;
+  max-width: 200px;
+  text-align: center;
+  border: 2px solid #1a2026;
+  background: rgb(255, 215, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 215, 0, 1) 0%,
+    rgba(254, 255, 0, 1) 50%
+  );
+}
+
+@media (max-width: 650px) {
+  .clock-col {
+    max-width: 75px;
+  }
+}
+.clock-col:first-child {
+  background: rgb(128, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(128, 0, 0, 1) 0%,
+    rgba(128, 0, 48, 1) 50%
+  );
+}
+
+.clock-timer {
+  font-size: 3.6rem;
+  color: #ffffff;
+  padding: 50px 0;
+  box-shadow: 0 -5px 5px -5px #333;
+}
+
+@media (max-width: 650px) {
+  .clock-timer {
+    font-size: 2rem;
+    padding: 30px 0;
+  }
+}
+.clock-label {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 20px 0;
+  margin: 0;
+  background: rgb(255, 252, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 252, 0, 1) 0%,
+    rgba(255, 218, 0, 1) 50%
+  );
+  border-top: 1px solid #013e5b;
+}
+
+@media (max-width: 650px) {
+  .clock-label {
+    font-size: 0.75rem;
+  }
+}
+
+.clock-label.label-days {
+  color: #ccc;
+  background: #e91e63;
+  background: linear-gradient(
+    0deg,
+    rgba(201, 28, 87, 1) 0%,
+    rgba(158, 24, 69, 1) 100%
+  );
+  border-top: 1px solid #a31847;
+}
