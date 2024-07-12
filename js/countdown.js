@@ -34,7 +34,7 @@ window.onload = function () {
     // If the count down is finished, write some text
     if (distance < 0) {
       controller.abort();
-      document.querySelector(".clock-container").innerHTML = "EXPIRED";
+      document.querySelector(".clock-container").innerHTML = "Ya nos casamos";
     }
   });
 };
